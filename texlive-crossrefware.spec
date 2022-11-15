@@ -33,25 +33,10 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%{_texmfdistdir}/texmf-dist/tex/latex/crossrefware
-%{_texmfdistdir}/texmf-dist/scripts/crossrefware
-%doc %{_texmfdistdir}/texmf-dist/doc/support/crossrefware
-%{_texmfdistdir}/texmf-dist
-%{_texmfdistdir}/texmf-dist/doc
-%doc %{_texmfdistdir}/texmf-dist/doc/man
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/ltx2crossrefxml.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/ltx2crossrefxml.1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bibzbladd.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bibzbladd.1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/biburl2doi.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/biburl2doi.1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bibmradd.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bibmradd.1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bibdoiadd.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bibdoiadd.1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bbl2bib.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/bbl2bib.1
+%{_texmfdistdir}/tex/latex/crossrefware
+%{_texmfdistdir}/scripts/crossrefware
+%doc %{_texmfdistdir}/doc/support/crossrefware
+%doc %{_texmfdistdir}/doc/man/man1/*
 
 %post -p %{_sbindir}/texlive.post
 
