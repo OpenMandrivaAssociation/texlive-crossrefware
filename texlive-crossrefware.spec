@@ -1,6 +1,6 @@
 Name:		texlive-crossrefware
-Version:	64754
-Release:	2
+Version:	69700
+Release:	1
 Summary:	Scripts for working with crossref.org
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/crossrefware
