@@ -1,5 +1,5 @@
 Name:		texlive-crossrefware
-Version:	69700
+Version:	72217
 Release:	1
 Summary:	Scripts for working with crossref.org
 Group:		Publishing
