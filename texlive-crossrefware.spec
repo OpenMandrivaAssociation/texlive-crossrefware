@@ -3,7 +3,7 @@ Version:	72217
 Release:	1
 Summary:	Scripts for working with crossref.org
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/crossrefware
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/crossrefware
 License:	gpl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/crossrefware.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/crossrefware.doc.r%{version}.tar.xz
